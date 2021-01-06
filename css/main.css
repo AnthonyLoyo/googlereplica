@@ -1,0 +1,55 @@
+/* Your CSS order goes from top to bottom, but your General site rules go up top */
+
+* {
+/*
+    The '*' is the universal selector in CSS. 
+    It is essentially a type selector that matches any type. 
+    Type meaning any HTML element like <div>, <body>, <button>
+
+*/
+    color: black;
+    /* 
+        changed the default color of all elements to black 
+    */
+} 
+
+body {
+/*
+    Selects the <body> tag of our HTML
+*/
+    margin: 0;
+    /* 
+        The 'margin' property sets the margin area on all four sides of an element 
+        in this case it gave our body a 'margin' of zero from the screens edge.
+    */
+    display: flex;
+    /*
+        The 'display' property sets whether an element is treated as a block or inline element and the layout used for its chilrend, such as flow layout, grid and flex.
+
+        The 'flex' container expands items to fill available free space or shrinks them to prevent overflow.
+    */
+    flex-direction: column;
+    /*
+        the 'flex-direction' property sets how flex items are placed in the flex container defining the main axis and the direction.
+
+        The 'column' container direction in which lines of text are stacked 
+    */
+}
+
+a {
+/*
+    selects all <a> tags 
+*/
+    color: #222222;
+    /*
+        changed the color of all <a> tags 
+    */
+    text-decoration: none;
+    /*
+        removed the decoration(lines) underneath our <a> tags
+    */
+}
+
+a:hover {
+    text-decoration: underline;    
+}
