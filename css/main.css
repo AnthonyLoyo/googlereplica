@@ -22,12 +22,14 @@ body {
         The 'margin' property sets the margin area on all four sides of an element 
         in this case it gave our body a 'margin' of zero from the screens edge.
     */
+
     display: flex;
     /*
-        The 'display' property sets whether an element is treated as a block or inline element and the layout used for its chilrend, such as flow layout, grid and flex.
+        The 'display' property sets whether an element is treated as a block or inline element and the layout used for its children, such as flow layout, grid and flex.
 
         The 'flex' container expands items to fill available free space or shrinks them to prevent overflow.
     */
+
     flex-direction: column;
     /*
         the 'flex-direction' property sets how flex items are placed in the flex container defining the main axis and the direction.
@@ -44,6 +46,7 @@ a {
     /*
         changed the color of all <a> tags 
     */
+
     text-decoration: none;
     /*
         removed the decoration(lines) underneath our <a> tags
@@ -51,5 +54,45 @@ a {
 }
 
 a:hover {
-    text-decoration: underline;    
+/*
+    Selects all <a> tags,
+    the semicolon is a 'pseudo-class' it is used to define a specific point in the 
+    state of a element like a clicked link, hover over over link, etc. 
+*/
+    text-decoration: underline;
+    /*
+        The <a> tag will have a underline text decoration when hovered on.
+    */
+}
+
+/* Beggining of top portion of Replica */
+
+.top-navigation {
+/*
+    The '.' is the CSS selector for any element with a 'class' of 'top-navigation' in the  HTML file.
+*/
+    display: flex;
+    /*
+        The 'display' property sets whether an element is treated as a block or inline element and the layout used for its children, such as flow layout, grid and flex.
+
+        The 'flex' container expands items to fill available free space or shrinks them to prevent overflow.
+    */
+
+    justify-content: flex-end;
+    /*
+        The 'justify-content' property defines how the browser distributes space between and around content items along the main-axis of a flex containe, and the inline axis of a grid container.
+
+        The 'flex-end' property items are packed flush to each other toward the edge of the alignment container depending on the flex container main-end side.
+    */
+
+    margin-right: 25px;
+    /*
+        The 'margin-right' creates a margin from the right of the element.
+    */
+}
+.top-navigation li{
+/*
+    The '.' is the CSS selector for any element with a 'class' of 'top-navigation' in the HTML file. By placing the 'li' after the '.topnavigation' we select every <li> tag in the HTML file inside the <div> tag that has a 'class' of 'top navigation'.
+*/
+    display: inline-block;
 }
