@@ -95,4 +95,21 @@ a:hover {
     The '.' is the CSS selector for any element with a 'class' of 'top-navigation' in the HTML file. By placing the 'li' after the '.topnavigation' we select every <li> tag in the HTML file inside the <div> tag that has a 'class' of 'top navigation'.
 */
     display: inline-block;
+    /*
+        The 'display' property sets whether an element is treated as a block on in-line element and the layout used for this childern, such as flow layout, grid or flex.
+
+        The 'inline-block' property allows you to set a width and height of the element. 
+    */
+
+    padding: 5px 10px 0 0;
+    /*
+        The 'padding' property are used to generate space around an elements content, inside of any defined mragins and/or borders. 
+    */
+
+    vertical-align: bottom;
+    /*
+        The 'vertical-align' proprty sets the vertical alignment of an element. 
+
+        The 'bottom' helps align the elemnt with the lowest elemnt on the line.
+    */
 }
