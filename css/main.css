@@ -90,7 +90,7 @@ a:hover {
         The 'margin-right' creates a margin from the right of the element.
     */
 }
-.top-navigation li{
+.top-navigation li {
 /*
     The '.' is the CSS selector for any element with a 'class' of 'top-navigation' in the HTML file. By placing the 'li' after the '.topnavigation' we select every <li> tag in the HTML file inside the <div> tag that has a 'class' of 'top navigation'.
 */
@@ -112,4 +112,138 @@ a:hover {
 
         The 'bottom' helps align the elemnt with the lowest elemnt on the line.
     */
+
+    margin: 5px 5px 0 0;
+    /*
+        The 'margin' property sets the margin area on all four sides of a area. Using 'margin' is short hand for 'margin-top', 'margin-right', 'margin-bottom', and 'margin left'. 
+    */
+
+    font-size: 13px;
+}
+.fa {
+    font-size: 20px;
+
+    opacity: 0.07;
+    /*
+        The 'opacity' property sets the opacity of an element. Opacity is the degree to which content behind an element is hidden, and is the opposite of transparency.
+    */
+    
+    cursor: pointer;
+    /*
+        The 'cursor' property added a 'pointer' to the span so whenever you hover over it. it will have a cursor.
+    */
+}
+.fa:hover {
+    opacity: 1.0;
+    /*
+        The 'opacity' of the span darkens when hovered over.
+    */
+}
+.share-button {
+    background-color: #f2f2f2;
+    
+    padding: 7px 15px;
+    
+    cursor: pointer;
+    
+    position: relative;
+    /*
+        The 'position'property sets how a element is positioned in a document. The top, right, bottom, and left properties determine the final location of positioned elements.
+
+        An element with 'position:relative' is positioned relative to its normal position.
+    */
+    
+    top: -3;
+}
+.share-button:hover {
+    background-color: #e1e1e1;
+}
+.profile-img {
+    border-radius: 25px;
+    /*
+        The 'border-readius' property rounds the corners of an elements outter border edge 
+    */
+    
+    height: 32px;
+    
+    width: 32px;
+    
+    position: relative;
+     /*
+        The 'position'property sets how a element is positioned in a document. The top, right, bottom, and left properties determine the final location of positioned elements.
+
+        An element with 'position:relative' is positioned relative to its normal position.
+    */
+    
+    top: 9px;
+    /*
+        The 'top' property affects the vertical position of a positioned element. the property hass no effect on non positioned elements.
+    */
+}
+
+/* Ending of Top Navigation */
+
+/* Beggining of Middle Navigation */
+.search-box img{
+    margin: 142px auto 24px auto;
+    /*
+        The 'margin' property sets the margin area on all four sides of a area. Using 'margin' is short hand for 'margin-top', 'margin-right', 'margin-bottom', and 'margin left'. 
+    */
+    
+    display: block;
+    /*
+        The 'display' propery specifies the display behaviior of an element.
+
+        An element with the 'display: block' value results as a block element. It starts on a new line and takes up the entire width. 
+    */
+    
+    width: 400px;
+    /*
+        The'width' property sets the width of an element 
+
+        An element with the 'width: 400px; value results in giving the image a width of 400px.
+    */
+}
+.search-box input {
+    width: 600px;
+    /*
+        The 'width' propert sets the width of an element.
+
+        An element with the 'width:600px;' value results in giving the search bar a width of 60px. 
+    */
+    
+    margin: 0 auto;
+    /*
+        The 'margin' propert sets the margin area on all four sides of a area. Using 'margin' is short hand for 'margin-top', 'margin right', 'margin-bottom', and 'margin-left'.
+    */
+
+    padding: 5px;
+
+    border: 1px solid #d9d9d9;
+
+    font-size: 16px;
+
+    border-radius: 5px;
+
+    display: block;
+}
+.search-buttons {
+    text-align: center;
+    /*
+        The 'text-align' property specifies the horizontal alignment of text in an element
+
+        An element with the 'text-align:center;' value results in our buttons moving to the center.
+    */
+}
+.search-buttons button {
+    background-color: #f5f5f5;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 2px;
+    color: #666666;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 27px;
+    margin: 17px 6px;
+    padding: 0 12px;
+    cursor: pointer;
 }
